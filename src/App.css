@@ -6,7 +6,10 @@
 }
 
 body {
-background-image: url('../src/img/landing.jpg');
+  background-image: url('../src/img/landing.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   height: 100vh;
   width: 100vw;
   display: flex;
@@ -22,7 +25,13 @@ background-image: url('../src/img/landing.jpg');
   height: 600px;
   padding: 20px;
   text-align: center;
-  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.507);
+  box-shadow:
+    0 0 5px rgb(240, 245, 255),
+    0 0 10px rgb(205, 204, 255),
+    0 0 15px rgb(179, 180, 255),
+    0 0 20px rgb(143, 167, 255),
+    0 0 25px rgb(117, 131, 255),
+    0 0 30px rgb(77, 95, 255);
 }
 
 .card-header {

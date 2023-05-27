@@ -1,10 +1,11 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
 import { auth } from '../firebase';
 
+//creamos el contexto para exportar el provider
 const AuthContext = createContext();
 
 export const useAuth = () => useContext(AuthContext);
-
+//provider
 export const AuthProvider = (props) => {
 
   const [currentUser, setCurrentUser] = useState({});

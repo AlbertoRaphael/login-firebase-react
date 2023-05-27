@@ -11,7 +11,7 @@ const app = firebase.initializeApp({
   appId: "1:573867060290:web:d426877e66014316d1d1db",
   measurementId: "G-DE1MM2H12R"
 })
-
+//servicios de firebase
 export const auth = firebase.auth();
 
 export default app;
