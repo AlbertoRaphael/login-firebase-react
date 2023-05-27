@@ -14,10 +14,10 @@ export const Login = () => {
 
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-
+//se setean con lo que uno esta escribiendo
   const handleEmail = e => setEmail(e.target.value);
   const handlePassword = e => setPassword(e.target.value);
-
+//en caso de poner credenciales incorrectas
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);

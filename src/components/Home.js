@@ -9,7 +9,7 @@ export const Home = () => {
 
   const [error, setError] = useState('');
 
-
+//se crea esta funcion asincrona para manejar los errores
   const handleLogout = async () => {
     try {
       await logout();
